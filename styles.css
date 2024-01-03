@@ -26,9 +26,13 @@
     color: #F9FAF8;
 }
 
-.hero-secondary-text {
+.hero-secondary-text, .secondary-call-to-action-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.information-container {
+    padding: 16px;
 }
 
 .information-header-text {
@@ -39,6 +43,7 @@
 
 .quote-container {
     background-color: #e5e7eb;
+    padding: 16px;
 }
 
 .quote {
@@ -66,8 +71,15 @@ button {
     background-color: #3882F6;
 }
 
-.call-to-action {
+.call-to-action-container {
     background-color: #3882F6;
+    padding: 16px;
+}
+
+.primary-call-to-action-text {
+    font-weight: 800;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .footer {
