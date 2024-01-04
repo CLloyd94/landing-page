@@ -8,6 +8,7 @@ html {
 
 .header {
     justify-content: space-between;
+    align-items: center;
     display: flex;
     padding: 24px 200px 16px;
     background-color: #1f2937;
@@ -17,6 +18,15 @@ html {
     display: flex;
     padding: 16px 200px;
     background-color: #1f2937;
+    border: red solid 2px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    border: red solid 2px;
 }
 
 .logo {
@@ -60,6 +70,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
 }
 
 nav {
@@ -79,6 +90,12 @@ ul {
 
 button {
     background-color: #3882F6;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    padding: 8px;
 }
 
 .call-to-action-container {
