@@ -31,6 +31,7 @@ html {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .hero-main-text {
@@ -54,7 +55,6 @@ img {
 
 .information-container {
     padding: 32px 200px;
-    border: red solid 2px;
 }
 
 .information-header-text {
@@ -95,13 +95,27 @@ img {
 
 .quote-container {
     background-color: #e5e7eb;
-    padding: 16px 200px;
+    padding: 100px 200px;
+    border: red solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
 
 .quote {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
+    margin: auto;
+    align-items: center;
+    max-width: 800px;
+}
+
+.quoted-person {
+    font-weight: bold;
+    align-items: flex-end;
+    margin: auto;
 }
 
 body {
