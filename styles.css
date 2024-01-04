@@ -16,9 +16,9 @@ html {
 
 .hero-container {
     display: flex;
+    justify-content: space-between;
     padding: 16px 200px;
     background-color: #1f2937;
-    border: red solid 2px;
 }
 
 .hero-left {
@@ -26,7 +26,6 @@ html {
     flex-direction: column;
     gap: 20px;
     width: 500px;
-    border: red solid 2px;
 }
 
 .logo {
@@ -45,15 +44,54 @@ html {
     color: #E5E7EB;
 }
 
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: white;
+    flex: 1;
+}
+
 .information-container {
-    padding: 16px 200px;
+    padding: 32px 200px;
+    border: red solid 2px;
 }
 
 .information-header-text {
     font-size: 36px;
     font-weight: 800;
     color:#1F2937;
+    text-align: center;
 }
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 62px 0px;
+}
+
+.card {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box {
+    border-radius: 16px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.information-text {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
 
 .quote-container {
     background-color: #e5e7eb;
